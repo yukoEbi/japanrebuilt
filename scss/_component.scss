@@ -377,6 +377,36 @@
     font-weight: 400;
     background: #666;
     text-align: center;
+    .indicator{
+      display: inline-block;
+      margin: 0 0 0 5px;
+      width: 15px;
+      height: 15px;
+      position: relative;
+      vertical-align: middle;
+      &::before{
+        content: "";
+        height: 5px;
+        width: 5px;
+        position: absolute;
+        border: 6px solid transparent;
+        border-bottom-color: #fff;
+        top: -7px;
+        left: 0;
+        cursor: pointer;
+      }
+      &::after{
+        content: "";
+        height: 5px;
+        width: 5px;
+        position: absolute;
+        border: 6px solid transparent;
+        border-top-color: #fff;
+        top: 7px;
+        left: 0;
+        cursor: pointer;
+      }
+    }
   }
   td {
     word-wrap: break-word;
@@ -524,6 +554,10 @@
       span {
         margin-left: 20px;
       }
+      .password-icon{
+        max-width: 50px;
+        color: #fff;
+      }
     }
   }
 }
@@ -590,7 +624,7 @@
       }
     }
     input {
-      padding: 0 20px;
+      padding: 0 20px 0 8px;
     }
     &:first-child {
       width: 200px;

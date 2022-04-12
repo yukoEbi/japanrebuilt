@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>トップメニュー｜JAPAN REBUILT WEB ORDER SYSTEM</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Noto+Sans+JP:wght@400;700&display=swap"
+    rel="stylesheet">
+  <!-- End Google Fonts -->
+  <link rel="stylesheet" href="scss/styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <h1 class="header__logo">JAPAN REBUILT WEB ORDER SYSTEM</h1>
+      <form name="logout" method="post" action="" class="header__user">
+        <p class="header__user-name"><img src="img/user.png"><span>ジャパンリビルト</span>&nbsp;様</p>
+        <input type="submit" value="ログアウト" class="header__btn btn btn--sm">
+      </form>
+    </div>
+  </header>
+
+  <main class="main main--1col">
+    <div class="content top-menu">
+      <nav class="breadcrumb">
+        <ol>
+          <li><img src="img/home.png">トップメニュー</li>
+        </ol>
+      </nav>
+      <section class="top-menu">
+        <div class="content__inner">
+          <div class="top-menu__column top-menu__left">
+            <a href="orders.html" class="top-menu__item">
+              <div class="top-menu__item-inner">
+                <img src="img/orders.svg">
+                <h3>受注管理</h3>
+              </div>
+            </a>
+            <a href="products.html" class="top-menu__item">
+              <div class="top-menu__item-inner">
+                <img src="img/products.svg">
+                <h3>商品管理</h3>
+              </div>
+            </a>
+          </div>
+          <div class="top-menu__column top-menu__right">
+            <div class="top-menu__item">
+              <div class="top-menu__item-inner">
+                <img src="img/master.svg">
+                <h3>マスター管理</h3>
+              </div>
+            </div>
+            <ul class="top-menu__list">
+              <li><a href="news.html">お知らせ管理</a></li>
+              <li><a href="agency.html">代理店管理</a></li>
+              <li><a href="password.html">パスワード管理</a></li>
+              <li><a href="price-category.html">価格区分管理</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Copyright©JAPAN REBUILT Corporation All right reserved.</p>
+  </footer>
+  <!-- End Footer -->
+</body>
+
+</html>

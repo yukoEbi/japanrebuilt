@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>お知らせ管理｜JAPAN REBUILT WEB ORDER SYSTEM</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Noto+Sans+JP:wght@400;700&display=swap"
+    rel="stylesheet">
+  <!-- End Google Fonts -->
+  <link rel="stylesheet" href="scss/styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <h1 class="header__logo">JAPAN REBUILT WEB ORDER SYSTEM</h1>
+      <form name="logout" method="post" action="" class="header__user">
+        <p class="header__user-name"><img src="img/user.png"><span>ジャパンリビルト</span>&nbsp;様</p>
+        <input type="submit" value="ログアウト" class="header__btn btn btn--sm">
+      </form>
+    </div>
+  </header>
+
+  <main class="main main--2col active">
+    <div class="side-nav">
+      <nav class="side-nav__inner">
+        <ul>
+          <li class="side-nav__item">
+            <a href="orders.html" class="side-nav__item-ttl">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45.002 62.001">
+                <g id="グループ_20" data-name="グループ 20" transform="translate(-281.993 -455.166)">
+                  <g id="グループ_12" data-name="グループ 12">
+                    <g id="グループ_10" data-name="グループ 10">
+                      <path id="パス_9" data-name="パス 9"
+                        d="M283.683,515.507H325.3v-48.54l-10.28-10.13h-31.34Zm42.46,1.66h-43.31a.837.837,0,0,1-.84-.83V456a.837.837,0,0,1,.84-.83h32.53a.839.839,0,0,1,.6.25l10.78,10.61a.837.837,0,0,1,.25.59v49.72A.839.839,0,0,1,326.143,517.167Z"
+                        fill="#a1a1a1" fill-rule="evenodd" />
+                    </g>
+                    <g id="グループ_11" data-name="グループ 11">
+                      <path id="パス_10" data-name="パス 10"
+                        d="M316.2,465.787h7.91l-7.9-7.78Zm9.94,1.66h-10.79a.837.837,0,0,1-.85-.83l.02-10.62a.84.84,0,0,1,1.44-.58l10.78,10.61a.837.837,0,0,1,.19.911A.858.858,0,0,1,326.143,467.447Z"
+                        fill="#a1a1a1" fill-rule="evenodd" />
+                    </g>
+                  </g>
+                  <g id="グループ_19" data-name="グループ 19">
+                    <g id="グループ_13" data-name="グループ 13">
+                      <path id="パス_11" data-name="パス 11"
+                        d="M305.933,468.287H289.4a.835.835,0,1,1,0-1.67h16.53a.835.835,0,1,1,0,1.67Z" fill="#a1a1a1" />
+                    </g>
+                    <g id="グループ_14" data-name="グループ 14">
+                      <path id="パス_12" data-name="パス 12"
+                        d="M319.583,475.768H289.4a.831.831,0,1,1,0-1.661h30.18a.831.831,0,1,1,0,1.661Z"
+                        fill="#a1a1a1" />
+                    </g>
+                    <g id="グループ_15" data-name="グループ 15">
+                      <path id="パス_13" data-name="パス 13"
+                        d="M319.583,483.257H289.4a.83.83,0,1,1,0-1.659h30.18a.83.83,0,1,1,0,1.659Z" fill="#a1a1a1" />
+                    </g>
+                    <g id="グループ_16" data-name="グループ 16">
+                      <path id="パス_14" data-name="パス 14"
+                        d="M319.583,490.737H289.4a.83.83,0,1,1,0-1.66h30.18a.83.83,0,1,1,0,1.66Z" fill="#a1a1a1" />
+                    </g>
+                    <g id="グループ_17" data-name="グループ 17">
+                      <path id="パス_15" data-name="パス 15"
+                        d="M319.583,498.228H289.4a.831.831,0,1,1,0-1.661h30.18a.831.831,0,1,1,0,1.661Z"
+                        fill="#a1a1a1" />
+                    </g>
+                    <g id="グループ_18" data-name="グループ 18">
+                      <path id="パス_16" data-name="パス 16"
+                        d="M319.583,505.717H289.4a.838.838,0,0,1-.85-.829.847.847,0,0,1,.85-.841h30.18a.847.847,0,0,1,.85.841A.838.838,0,0,1,319.583,505.717Z"
+                        fill="#a1a1a1" />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <p>受注管理</p>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <a href="products.html" class="side-nav__item-ttl">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 58">
+                <g id="グループ_26" data-name="グループ 26" transform="translate(-454.993 -459.167)">
+                  <g id="グループ_21" data-name="グループ 21">
+                    <path id="パス_17" data-name="パス 17"
+                      d="M506.233,495.527a.977.977,0,0,1-.97-.969V489h-18.34a.971.971,0,0,1-.97-.97v-6.25a.97.97,0,0,1,1.94,0v5.281h18.34a.971.971,0,0,1,.97.969v6.531A.971.971,0,0,1,506.233,495.527Z"
+                      fill="#a1a1a1" />
+                  </g>
+                  <g id="グループ_22" data-name="グループ 22">
+                    <path id="パス_18" data-name="パス 18"
+                      d="M466.753,495.527a.971.971,0,0,1-.97-.969v-6.531a.97.97,0,0,1,.97-.969h20.17a.969.969,0,1,1,0,1.939h-19.21v5.561A.969.969,0,0,1,466.753,495.527Z"
+                      fill="#a1a1a1" />
+                  </g>
+                  <g id="グループ_23" data-name="グループ 23">
+                    <path id="パス_19" data-name="パス 19"
+                      d="M477.093,480.817h19.66v-19.71h-19.66Zm20.62,1.93h-21.58a.965.965,0,0,1-.97-.97V460.138a.971.971,0,0,1,.97-.971h21.58a.971.971,0,0,1,.97.971v21.639A.965.965,0,0,1,497.713,482.747Z"
+                      fill="#a1a1a1" fill-rule="evenodd" />
+                  </g>
+                  <g id="グループ_24" data-name="グループ 24">
+                    <path id="パス_20" data-name="パス 20"
+                      d="M456.923,515.228h19.65v-19.7h-19.65Zm20.62,1.939h-21.58a.965.965,0,0,1-.97-.971V494.558a.965.965,0,0,1,.97-.971h21.58a.965.965,0,0,1,.97.971V516.2A.965.965,0,0,1,477.543,517.167Z"
+                      fill="#a1a1a1" fill-rule="evenodd" />
+                  </g>
+                  <g id="グループ_25" data-name="グループ 25">
+                    <path id="パス_21" data-name="パス 21"
+                      d="M496.4,515.228h19.659v-19.7H496.4Zm20.619,1.939H495.443a.964.964,0,0,1-.969-.971V494.558a.965.965,0,0,1,.969-.971h21.579a.966.966,0,0,1,.971.971V516.2A.966.966,0,0,1,517.022,517.167Z"
+                      fill="#a1a1a1" fill-rule="evenodd" />
+                  </g>
+                </g>
+              </svg>
+              <p>商品管理</p>
+            </a>
+          </li>
+          <li class="side-nav__item">
+            <div class="side-nav__item-ttl active">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 64">
+                <g id="グループ_29" data-name="グループ 29" transform="translate(-366.493 -453.167)">
+                  <g id="グループ_27" data-name="グループ 27">
+                    <path id="パス_22" data-name="パス 22"
+                      d="M428.613,489.228h0Zm-33.81,26.16h6.38l.59-6.811a.861.861,0,0,1,.67-.78,22.677,22.677,0,0,0,7.89-3.59.86.86,0,0,1,1.07.05l5.37,4.57,4.51-4.58-4.65-5.63a.92.92,0,0,1-.07-1.05,23.063,23.063,0,0,0,3.08-7.8.9.9,0,0,1,.79-.71l7.31-.651v-6.48l-7.31-.659a.883.883,0,0,1-.79-.71,23.074,23.074,0,0,0-3.08-7.79.921.921,0,0,1,.07-1.051l4.65-5.63-4.51-4.58-5.37,4.57a.872.872,0,0,1-1.07.05,22.5,22.5,0,0,0-7.89-3.59.863.863,0,0,1-.67-.79l-.59-6.8H394.8l-.56,6.48a.885.885,0,0,1-.73.8,22.334,22.334,0,0,0-8.58,3.339.871.871,0,0,1-1.03-.07l-4.69-3.99-4.52,4.58,3.79,4.59a.887.887,0,0,1,.05,1.08,23.277,23.277,0,0,0-3.77,8.94.86.86,0,0,1-.78.71l-5.74.52v6.48l5.74.51a.881.881,0,0,1,.78.721,23.171,23.171,0,0,0,3.77,8.929.9.9,0,0,1-.05,1.09l-3.79,4.59,4.52,4.58,4.69-3.99a.857.857,0,0,1,1.03-.069,22.509,22.509,0,0,0,8.58,3.329.9.9,0,0,1,.73.8Zm7.19,1.779h-8a.88.88,0,0,1-.87-.811l-.57-6.619a24.2,24.2,0,0,1-8.01-3.12l-4.82,4.1a.866.866,0,0,1-1.18-.05l-5.65-5.74a.915.915,0,0,1-.05-1.21l3.87-4.69a25.151,25.151,0,0,1-3.53-8.389l-5.89-.521a.89.89,0,0,1-.8-.889v-8.121a.892.892,0,0,1,.8-.89l5.89-.52a25.142,25.142,0,0,1,3.53-8.389l-3.87-4.7a.9.9,0,0,1,.05-1.2l5.65-5.74a.867.867,0,0,1,1.18-.05l4.82,4.1a24,24,0,0,1,8.01-3.119l.57-6.62a.881.881,0,0,1,.87-.811h8a.881.881,0,0,1,.87.811l.6,6.989a24.109,24.109,0,0,1,7.32,3.32l5.48-4.67a.867.867,0,0,1,1.18.05l5.65,5.74a.9.9,0,0,1,.05,1.2l-4.76,5.76a25.031,25.031,0,0,1,2.84,7.191l7.47.659a.892.892,0,0,1,.8.89v8.121a.89.89,0,0,1-.8.889l-7.47.66a24.853,24.853,0,0,1-2.84,7.18l4.76,5.76a.915.915,0,0,1-.05,1.21l-5.65,5.74a.866.866,0,0,1-1.18.05l-5.48-4.67a24.084,24.084,0,0,1-7.32,3.32l-.6,6.989A.88.88,0,0,1,401.993,517.167Z"
+                      fill="#a1a1a1" fill-rule="evenodd" />
+                  </g>
+                  <g id="グループ_28" data-name="グループ 28">
+                    <path id="パス_23" data-name="パス 23"
+                      d="M397.993,471.308a13.861,13.861,0,1,0,13.65,13.859A13.777,13.777,0,0,0,397.993,471.308Zm0,29.5a15.642,15.642,0,1,1,15.4-15.641A15.537,15.537,0,0,1,397.993,500.808Z"
+                      fill="#a1a1a1" fill-rule="evenodd" />
+                  </g>
+                </g>
+              </svg>
+              <p>マスター管理</p>
+            </div>
+            <ul>
+              <li class="active">お知らせ管理</li>
+              <li><a href="agency.html">代理店管理</a></li>
+              <li><a href="password.html">パスワード管理</a></li>
+              <li><a href="price-category.html">価格区分管理</a></li>
+            </ul>
+          </li>
+          <li class="side-nav__item" id="sidenav_toggle">
+            <div class="side-nav__item-ttl">
+              <svg class="close" xmlns="http://www.w3.org/2000/svg" width="46.833" height="46.833"
+                viewBox="0 0 46.833 46.833">
+                <g transform="translate(-356 -247.592)">
+                  <path
+                    d="M366.851,271.008a.921.921,0,0,1,.437-.778L384.3,259.84a.91.91,0,1,1,.948,1.553l-15.742,9.615,15.742,9.613a.91.91,0,1,1-.948,1.553l-17.015-10.39A.915.915,0,0,1,366.851,271.008Z"
+                    fill="#3f3f3f" />
+                  <path
+                    d="M356,271.008a23.417,23.417,0,1,1,23.415,23.417A23.441,23.441,0,0,1,356,271.008Zm45.014,0a21.6,21.6,0,1,0-21.6,21.6A21.623,21.623,0,0,0,401.014,271.008Z"
+                    fill="#3f3f3f" />
+                </g>
+              </svg>
+              <svg class="open" xmlns="http://www.w3.org/2000/svg" width="46.833" height="46.833"
+                viewBox="0 0 46.833 46.833">
+                <g transform="translate(-459.473 -247.593)">
+                  <path
+                    d="M495.455,271.01a.922.922,0,0,1-.436.778L478,282.178a.91.91,0,1,1-.948-1.553L492.8,271.01,477.055,261.4a.91.91,0,1,1,.948-1.553l17.016,10.39A.916.916,0,0,1,495.455,271.01Z"
+                    fill="#3f3f3f" />
+                  <path
+                    d="M506.306,271.01a23.417,23.417,0,1,1-23.415-23.417A23.441,23.441,0,0,1,506.306,271.01Zm-45.014,0a21.6,21.6,0,1,0,21.6-21.6A21.623,21.623,0,0,0,461.292,271.01Z"
+                    fill="#3f3f3f" />
+                </g>
+              </svg>
+              <p>メニューを閉じる</p>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content news">
+      <nav class="breadcrumb">
+        <ol>
+          <li><img src="img/home.png"><a href="top-menu.html">トップメニュー</a></li>
+          <li>マスター管理</li>
+          <li>お知らせ管理</li>
+        </ol>
+      </nav>
+      <div class="content__header">
+        <h2 class="content__header-ttl">お知らせ管理</h2>
+      </div>
+      <section class="news">
+        <div class="section__header">
+          <h3 class="section__header-ttl">お知らせ情報一覧</h3>
+        </div>
+        <div class="content__inner">
+          <div class="news__txt">
+            <p>
+              サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト
+            </p>
+          </div>
+          <div class="content__buttons">
+            <a href="news_edit.html" class="btn">編集</a>
+          </div>
+        </div>
+      </section>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Copyright©JAPAN REBUILT Corporation All right reserved.</p>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <!-- End jQuery -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>

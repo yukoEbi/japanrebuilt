@@ -1,0 +1,17 @@
+.txt {
+  &--blue {
+    color: $main-color;
+  }
+}
+
+/* JS制御 */ 
+.is-active {
+  display: block;
+}
+
+.line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: $line-color;
+}

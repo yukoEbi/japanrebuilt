@@ -38,10 +38,12 @@
     }
   }
   &__btn {
+    height: initial !important;
+    line-height: initial !important;
     color: #fff !important;
     background: transparent !important;
     border: 1px solid #fff;
-    padding: 0 15px;
+    padding: 2px 15px 3px 15px;
   }
 }
 
@@ -179,7 +181,7 @@
     width: 100%;
     max-width: 110px;
     height: 25px;
-    line-height: 25px;
+    line-height: 23px;
     font-size: 12px;
   }
   &--lightgray {
@@ -219,6 +221,9 @@
   border-bottom: 1px solid $line-color;
   &-ttl {
     font-size: 16px;
+  }
+  .result__pagination {
+    margin-top: initial;
   }
 }
 
@@ -395,6 +400,11 @@
         left: 0;
         cursor: pointer;
       }
+      &.is_up{
+        &::before{
+          border-bottom-color: $main-color;
+        }
+      }
       &::after{
         content: "";
         height: 5px;
@@ -406,6 +416,11 @@
         left: 0;
         cursor: pointer;
       }
+      &.is_down{
+        &::after{
+          border-top-color: $main-color;
+        }
+      }
     }
   }
   td {
@@ -416,6 +431,10 @@
     }
     input {
       width: 100%;
+    }
+    button{
+      max-width: 50px;
+      margin-left: 5px;
     }
   }
   &__header,
@@ -432,9 +451,15 @@
   }
   &__header {
     margin-bottom: 5px;
+    .result__pagination {
+      margin-top: initial;
+    }
   }
   &__footer {
     margin-top: 5px;
+    .result__pagination {
+      margin-top: initial;
+    }
   }
   &__pagination {
     display: flex;
@@ -455,6 +480,9 @@
     }
     .btn:first-child {
       margin-right: 10px;
+    }
+    .result__pagination {
+      margin-top: initial;
     }
   }
   &__select {
@@ -480,7 +508,7 @@
     &::before {
       position: absolute;
       left: -20px;
-      top: -2px;
+      top: -4px;
       content: "\e5df";
       font-family: "Material Icons";
       font-size: 24px;
@@ -490,7 +518,7 @@
     select {
       width: 100%;
       height: 100%;
-      line-height: 25px;
+      line-height: 23px;
       padding-right: 15px;
       text-align: center;
     }
@@ -567,8 +595,6 @@
   flex-direction: column;
   font-size: 12px;
   li {
-    max-width: 350px;
-    width: 33%;
     height: 60px;
     border: 1px solid $line-color;
     h4,
@@ -590,7 +616,6 @@
     }
     &--lg {
       li {
-        max-width: 540px;
         width: 50%;
       }
     }
@@ -691,6 +716,32 @@
     padding: 15px;
     p {
       color: $danger-color;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.confirm {
+  #modal_content {
+    width: 400px;
+    height: auto;
+    border: 1px solid $main-color;
+    border-radius: 0;
+    overflow: hidden;
+  }
+  &__header {
+    color: #fff;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: $main-color;
+  }
+  &__body {
+    text-align: center;
+    padding: 15px;
+    p {
       font-size: 14px;
       margin-bottom: 10px;
     }

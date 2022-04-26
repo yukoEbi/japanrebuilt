@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Noto+Sans+JP:wght@400;700&display=swap"
     rel="stylesheet">
   <!-- End Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="stylesheet" href="scss/styles.css">
 </head>
 
@@ -30,12 +31,17 @@
             <p class="login__message">ログインしてください</p>
             <ul class="login__form">
               <li>
-                <figure><img src="img/id.png" alt="ID"></figure>
-                <input type="text" name="user_id" value="">
+                <div class="login__formGrp">
+                  <figure><img src="img/id.png" alt="ID"></figure>
+                  <input type="text" name="user_id" value="">
+                </div>
               </li>
               <li>
-                <figure><img src="img/password.png" alt="パスワード"></figure>
-                <input type="password" name="password" value="">
+                <div class="login__formGrp">
+                  <figure><img src="img/password.png" alt="パスワード"></figure>
+                  <input type="password" name="password" value="">
+                </div>
+                <button type="button" class="btn btn--gray"><i class="fa-solid fa-eye"></i></button>
               </li>
             </ul>
             <input type="submit" value="ログイン" class="btn login__btn">

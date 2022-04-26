@@ -14,6 +14,7 @@
   <!-- Material icons -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- End Material icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="stylesheet" href="scss/styles.css">
 </head>
 
@@ -135,8 +136,8 @@
               <p>マスター管理</p>
             </div>
             <ul>
-              <li><a href="news.html">お知らせ管理</a></li>
               <li class="active">代理店管理</li>
+              <li><a href="news.html">お知らせ管理</a></li>
               <li><a href="password.html">パスワード管理</a></li>
               <li><a href="price-category.html">価格区分管理</a></li>
             </ul>
@@ -182,7 +183,7 @@
         </nav>
         <div class="content__header">
           <h2 class="content__header-ttl">代理店管理</h2>
-          <button type="button" name="" class="btn">このデータを削除する</button>
+          <button type="button" id="modal_open" name="" class="btn">このデータを削除する</button>
         </div>
         <section class="agency_add__basic">
           <div class="section__header">
@@ -223,6 +224,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -239,11 +241,18 @@
               </tr>
               <tr>
                 <th>パスワード</th>
-                <td><input type="password"><span>変更する場合のみ入力</span></td>
+                <td>
+                  <input type="password">
+                  <button type="button" class="btn btn--gray"><i class="fa-solid fa-eye"></i></button>
+                  <span>変更する場合のみ入力</span>
+                </td>
               </tr>
               <tr>
                 <th>パスワード(確認)</th>
-                <td><input type="password"></td>
+                <td>
+                  <input type="password">
+                  <button type="button" class="btn btn--gray"><i class="fa-solid fa-eye"></i></button>
+                </td>
               </tr>
             </table>
           </div>
@@ -260,6 +269,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -279,6 +289,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -298,6 +309,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -317,6 +329,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -336,6 +349,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -355,6 +369,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -374,6 +389,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -393,6 +409,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -412,6 +429,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -431,6 +449,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -450,6 +469,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -469,6 +489,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -488,6 +509,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -507,6 +529,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -526,6 +549,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -545,6 +569,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -564,6 +589,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -583,6 +609,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -602,6 +629,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -621,6 +649,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -640,6 +669,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -659,6 +689,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -678,6 +709,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -697,6 +729,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -716,6 +749,7 @@
                 <td>
                   <div class="selectbox--lg">
                     <select name="">
+                      <option value="0">&nbsp;</option>
                       <option value="1">一般会員</option>
                       <option value="2">卸商</option>
                       <option value="3">部販</option>
@@ -740,6 +774,19 @@
       </form>
     </div>
   </main>
+
+  <div id="modal">
+    <div class="confirm">
+      <div id="modal_content">
+        <h3 class="confirm__header">内容確認</h3>
+        <div class="confirm__body">
+          <p>このデータを削除してよろしいですか？</p>
+          <button id="modal_close" class="btn btn--sm">はい</button>
+          <button id="modal_close" class="btn btn--sm btn--gray">いいえ</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer class="footer">

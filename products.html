@@ -117,7 +117,7 @@
             </div>
           </li>
           <li class="side-nav__item">
-            <a href="news.html" class="side-nav__item-ttl">
+            <a href="agency.html" class="side-nav__item-ttl">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63 64">
                 <g id="グループ_29" data-name="グループ 29" transform="translate(-366.493 -453.167)">
                   <g id="グループ_27" data-name="グループ 27">
@@ -208,7 +208,21 @@
             <div class="products__result result">
               <div class="table__header">
                 <a href="product_add.html" class="btn">新規追加</a>
-                <input type="submit" class="btn" value="在庫更新">
+                <input type="button" id="modal_open" class="btn" value="在庫更新">
+              </div>
+              <div class="result__pagination">
+                <ul>
+                  <li class="result__pagination-prev"><a href="#"><span class="material-icons">
+                        chevron_left
+                      </span></a></li>
+                  <li class="active">1</li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li class="result__pagination-next"><a href="#"><span class="material-icons">
+                        chevron_right
+                      </span></a>
+                  </li>
+                </ul>
               </div>
               <table class="table">
                 <thead>
@@ -224,16 +238,16 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td>013-23</td>
+                    <td>２０バイト文字です。</td>
+                    <td>３０バイト文字です。あああああ</td>
                     <td>マフラー</td>
-                    <td>マフラー</td>
-                    <td>確認</td>
+                    <td>８バイト</td>
                     <td>
                       <div class="table__select">
                         <select>
                           <option value="1">有</option>
                           <option value="2">無</option>
-                          <option value="3" selected>確認</option>
+                          <option value="3" selected>８バイト</option>
                           <option value="4">現品修理</option>
                           <option value="5">翌日</option>
                           <option value="6">1-2日</option>
@@ -251,8 +265,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-25</td>
@@ -282,8 +296,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-23CP</td>
@@ -313,8 +327,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-27</td>
@@ -344,8 +358,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-23</td>
@@ -375,8 +389,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-25</td>
@@ -406,8 +420,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-23CP</td>
@@ -437,8 +451,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-27</td>
@@ -468,8 +482,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-23</td>
@@ -499,8 +513,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-25</td>
@@ -530,8 +544,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-23CP</td>
@@ -561,8 +575,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-27</td>
@@ -592,8 +606,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-23</td>
@@ -623,8 +637,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-25</td>
@@ -654,8 +668,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-23CP</td>
@@ -685,8 +699,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-23CP</td>
@@ -716,8 +730,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-27</td>
@@ -747,8 +761,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-23</td>
@@ -778,8 +792,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-25</td>
@@ -809,8 +823,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                   <tr>
                     <td>013-23CP</td>
@@ -840,8 +854,8 @@
                         </select>
                       </div>
                     </td>
-                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品情報</a></td>
-                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両情報</a></td>
+                    <td><a href="product_edit.html" class="btn btn--sm btn--gray">対応部品</a></td>
+                    <td><a href="pair-parts.html" class="btn btn--sm btn--gray">対応車両</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -865,6 +879,17 @@
       </form>
     </div>
   </main>
+
+  <div id="modal" class="confirm">
+    <div id="modal_content">
+      <h3 class="confirm__header">内容確認</h3>
+      <div class="confirm__body">
+        <p>データを更新してよろしいですか？</p>
+        <button id="modal_close" class="btn btn--sm">はい</button>
+        <button id="modal_close" class="btn btn--sm btn--gray">いいえ</button>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer class="footer">

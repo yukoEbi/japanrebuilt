@@ -671,7 +671,7 @@ input[type=number] {
 /* ボタン */
 .btn {
   display: inline-block;
-  width: 220px;
+  width: 160px;
   height: 30px;
   line-height: 30px;
   font-size: 12px;
@@ -784,7 +784,6 @@ input[type=number] {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-right: 30px;
 }
 .filter__list li {
   display: block;
@@ -837,6 +836,7 @@ input[type=number] {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 600px;
 }
 .filter__buttons button {
   white-space: nowrap;
@@ -1107,7 +1107,7 @@ input[type=number] {
   background: #fff;
 }
 .table--lg td input {
-  max-width: 550px;
+  max-width: 680px;
   padding-left: 5px;
   padding-right: 5px;
 }

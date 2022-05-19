@@ -2,7 +2,7 @@ $main-color: #FF7715;
 $sub-color: #FFBB00;
 $accent-color: #0099CC;
 $danger-color: #CC0000;
-$line-color: #DDD;
+$line-color: #aaaaaa;
 
 /* 共通設定 */
 body {
@@ -17,12 +17,12 @@ input, select, textarea:focus {
   outline: none;
   font-size: 12px;
 }
-input[type="number"]::-webkit-outer-spin-button, 
-input[type="number"]::-webkit-inner-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
-} 
-input[type="number"] { 
-  -moz-appearance:textfield; 
-} 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance:textfield;
+}
 

@@ -444,9 +444,9 @@ input[type=number] {
 .main--1col .content__inner {
   background: #FFF;
   border-radius: 5px;
-  border: 1px solid #DDD;
-  -webkit-box-shadow: 0 2px 0 #DDD;
-          box-shadow: 0 2px 0 #DDD;
+  border: 1px solid #aaaaaa;
+  -webkit-box-shadow: 0 2px 0 #aaaaaa;
+          box-shadow: 0 2px 0 #aaaaaa;
   padding: 60px;
 }
 .main--2col .content {
@@ -461,9 +461,9 @@ input[type=number] {
   width: 100%;
   background: #fff;
   border-radius: 5px;
-  border: 1px solid #DDD;
-  -webkit-box-shadow: 0 2px 0 #DDD;
-          box-shadow: 0 2px 0 #DDD;
+  border: 1px solid #aaaaaa;
+  -webkit-box-shadow: 0 2px 0 #aaaaaa;
+          box-shadow: 0 2px 0 #aaaaaa;
 }
 .main--2col .content section:not(:last-child) {
   margin-bottom: 15px;
@@ -732,7 +732,7 @@ input[type=number] {
 
 .section__header {
   padding: 10px;
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #aaaaaa;
 }
 .section__header-ttl {
   font-size: 16px;
@@ -799,7 +799,7 @@ input[type=number] {
   width: 250px;
   height: 35px;
   font-size: 12px;
-  border: 1px solid #DDD;
+  border: 1px solid #aaaaaa;
   border-radius: 5px;
   margin-bottom: 2.5px;
   margin-top: 2.5px;
@@ -888,7 +888,7 @@ input[type=number] {
 }
 .result__pagination-prev, .result__pagination-next {
   width: 60px !important;
-  border: 1px solid #DDD;
+  border: 1px solid #aaaaaa;
 }
 .result__pagination-prev span, .result__pagination-next span {
   font-size: 36px;
@@ -912,7 +912,7 @@ input[type=number] {
 }
 .table th,
 .table td {
-  border: 1px solid #DDD;
+  border: 1px solid #aaaaaa;
   padding: 0 12px;
   vertical-align: middle;
   width: auto;
@@ -1015,7 +1015,7 @@ input[type=number] {
   color: #0099CC;
 }
 .table__buttons {
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #aaaaaa;
   margin-top: 10px;
   padding-bottom: 15px;
 }
@@ -1102,7 +1102,7 @@ input[type=number] {
 .table--lg td input,
 .table--lg td .selectbox--lg {
   height: 30px;
-  border: 1px solid #DDD;
+  border: 1px solid #aaaaaa;
   border-radius: 3px;
   background: #fff;
 }
@@ -1137,7 +1137,7 @@ input[type=number] {
 }
 .list li {
   height: 60px;
-  border: 1px solid #DDD;
+  border: 1px solid #aaaaaa;
 }
 .list li h4,
 .list li p {
@@ -1195,7 +1195,7 @@ input[type=number] {
   height: 35px;
   overflow: auto;
   word-wrap: break-word;
-  border: 1px solid #DDD;
+  border: 1px solid #aaaaaa;
   border-radius: 3px;
 }
 .list02 li .selectbox--lg {
@@ -1345,7 +1345,7 @@ input[type=number] {
   text-align: left;
   overflow: auto;
   word-wrap: break-word;
-  border-left: 1px solid #dfdfdf;
+  border-left: 1px solid #aaaaaa;
   padding: 0 20px;
 }
 .login__form li button {
@@ -1365,7 +1365,7 @@ input[type=number] {
           align-items: center;
   width: 100%;
   height: 50px;
-  border: 1px solid #dfdfdf;
+  border: 1px solid #aaaaaa;
   border-radius: 3px;
 }
 .login__btn {
@@ -1425,7 +1425,7 @@ input[type=number] {
           align-items: center;
   height: 175px;
   font-size: 22px;
-  border: 1px solid #DDD;
+  border: 1px solid #aaaaaa;
   border-radius: 3px;
   background: #fff;
 }
@@ -1438,9 +1438,9 @@ input[type=number] {
 .top-menu__list {
   width: 100%;
   background: #fff;
-  border-right: 1px solid #DDD;
-  border-left: 1px solid #DDD;
-  border-bottom: 1px solid #DDD;
+  border-right: 1px solid #aaaaaa;
+  border-left: 1px solid #aaaaaa;
+  border-bottom: 1px solid #aaaaaa;
   border-radius: 0 0 3px 3px;
 }
 .top-menu__list li a {
@@ -1451,7 +1451,7 @@ input[type=number] {
   padding: 0 20px;
 }
 .top-menu__list li:not(:last-child) {
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #aaaaaa;
 }
 
 .orders__result .table th:first-child,
@@ -1536,7 +1536,7 @@ input[type=number] {
   max-width: 1170px;
   width: 100%;
   background: #fff;
-  border-bottom: 1px solid #DDD;
+  border-bottom: 1px solid #aaaaaa;
 }
 .order-details__more section:not(:last-child) {
   margin-bottom: 30px;
@@ -1620,7 +1620,7 @@ input[type=number] {
 .product_add__official .table td input[type=checkbox] {
   width: 23px;
   height: 23px;
-  border: 1px solid #DDD;
+  border: 1px solid #aaaaaa;
   border-radius: 3px;
 }
 .product_add__official .table td:nth-child(5), .product_add__official .table td:last-child {
@@ -1826,7 +1826,7 @@ input[type=number] {
   height: 50px;
   padding: 0 20px;
   line-height: 50px;
-  border: 1px solid #DDD !important;
+  border: 1px solid #aaaaaa !important;
   border-radius: 3px;
 }
 .news_edit__message {
@@ -1895,7 +1895,7 @@ input[type=number] {
   width: 200px;
 }
 .password .content__buttons {
-  border-top: 1px solid #DDD !important;
+  border-top: 1px solid #aaaaaa !important;
   padding-top: 15px;
 }
 
@@ -1944,6 +1944,6 @@ input[type=number] {
   display: block;
   width: 100%;
   height: 1px;
-  background: #DDD;
+  background: #aaaaaa;
 }
 /*# sourceMappingURL=styles.css.map */
